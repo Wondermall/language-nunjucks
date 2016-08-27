@@ -1,31 +1,23 @@
 {
-  "name": "language-nunjucks",
+  "name": "language-wml-nunjucks",
   "version": "4.1.0",
   "private": true,
-  "description": "Syntax highlighting for nunjucks templates in the Atom editor.",
+  "description": "Syntax highlighting for Wondermall-flavored nunjucks templates in the Atom editor.",
   "keywords": [
     "language",
     "nunjucks"
   ],
-  "author": "alohaas <olivia@duckduckgo.com> (https://github.com/alohaas)",
-  "contributors": [
-    "silvenon (https://github.com/silvenon)",
-    "RodrigoEspinosa (https://github.com/RodrigoEspinosa)",
-    "joelbschwartz (https://github.com/joelbschwartz)",
-    "dkebler (https://github.com/dkebler)",
-    "puranjayjain (https://github.com/puranjayjain)"
-  ],
+  "author": "Eran Kampf",
   "license": "MIT",
   "engines": {
     "atom": ">=0.174.0 <2.0.0"
   },
-  "homepage": "http://atom.github.io/language-nunjucks",
   "repository": {
     "type": "git",
-    "url": "https://github.com/alohaas/language-nunjucks"
+    "url": "https://github.com/Wondermall/language-wml-nunjucks"
   },
   "bugs": {
-    "url": "https://github.com/alohaas/language-nunjucks/issues"
+    "url": "https://github.com/Wondermall/language-wml-nunjucks/issues"
   },
   "dependencies": {}
 }

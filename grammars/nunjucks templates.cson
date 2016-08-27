@@ -4,7 +4,7 @@
 'name': 'Nunjucks Templates'
 'patterns': [
   {
-    'begin': '({%)\\s*(raw)\\s*(%})'
+    'begin': '(<%)\\s*(raw)\\s*(%>)'
     'captures':
       '1':
         'name': 'entity.other.nunjucks.delimiter.tag'
@@ -12,23 +12,23 @@
         'name': 'keyword.control.nunjucks'
       '3':
         'name': 'entity.other.nunjucks.delimiter.tag'
-    'end': '({%)\\s*(endraw)\\s*(%})'
+    'end': '(<%)\\s*(endraw)\\s*(%>)'
     'name': 'comment.block.nunjucks.raw'
   }
   {
-    'begin': '{#-?'
+    'begin': '<#-?'
     'captures':
       '0':
         'name': 'entity.other.nunjucks.delimiter.comment'
-    'end': '-?#}'
+    'end': '-?#>'
     'name': 'comment.block.nunjucks'
   }
   {
-    'begin': '{{-?'
+    'begin': '<<-?'
     'captures':
       '0':
         'name': 'entity.other.nunjucks.delimiter.variable'
-    'end': '-?}}'
+    'end': '-?>>'
     'name': 'meta.scope.nunjucks.variable'
     'patterns': [
       {
@@ -37,11 +37,11 @@
     ]
   }
   {
-    'begin': '{%-?'
+    'begin': '<%-?'
     'captures':
       '0':
         'name': 'entity.other.nunjucks.delimiter.tag'
-    'end': '-?%}'
+    'end': '-?%>'
     'name': 'meta.scope.nunjucks.tag'
     'patterns': [
       {
